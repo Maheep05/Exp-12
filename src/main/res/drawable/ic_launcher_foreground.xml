@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple globe: stands for "the web" -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M32,54a22,22 0,1 0,44 0a22,22 0,1 0,-44 0M32,54L76,54M35,43L73,43M35,65L73,65M54,32c-7,6 -10,14 -10,22c0,8 3,16 10,22c7,-6 10,-14 10,-22c0,-8 -3,-16 -10,-22z"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+</vector>

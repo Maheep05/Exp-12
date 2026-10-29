@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HTTP Web Service Demo</string>
+    <string name="student_info">Maheep Saluja · USN: 25MCAR0105</string>
+    <string name="method_get">GET</string>
+    <string name="method_post">POST</string>
+    <string name="hint_url">Web service URL</string>
+    <string name="hint_body">Request body (JSON)</string>
+    <string name="send_request">Send request</string>
+    <string name="response_label">Response</string>
+    <string name="response_placeholder">Choose GET or POST and tap \"Send request\".</string>
+    <string name="default_get_url">https://jsonplaceholder.typicode.com/posts/1</string>
+    <string name="default_post_url">https://jsonplaceholder.typicode.com/posts</string>
+    <string name="default_post_body">{\n  \"name\": \"Maheep Saluja\",\n  \"usn\": \"25MCAR0105\",\n  \"experiment\": \"Access web services using HTTP requests\"\n}</string>
+    <string name="status_loading">Sending %1$s request…</string>
+    <string name="status_ok">HTTP %1$d %2$s · %3$d ms · %4$s</string>
+    <string name="status_error">Request failed: %1$s</string>
+    <string name="error_no_network">No internet connection</string>
+    <string name="error_invalid_url">Enter a valid http:// or https:// URL</string>
+</resources>
