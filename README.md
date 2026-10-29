@@ -273,6 +273,9 @@ HttpWebServiceDemo/
 | 1 | Read an existing resource | `GET` | `https://jsonplaceholder.typicode.com/posts/1` | — | `200 OK` and post with `id` 1 | `HTTP 200 OK · 1502 ms · JSON object, 4 fields` | ✅ Pass |
 | 2 | Create a resource with the student's details | `POST` | `https://jsonplaceholder.typicode.com/posts` | `{"name": "Maheep Saluja", "usn": "25MCAR0105", "experiment": "..."}` | `201 Created`; same data echoed back with a new `id` | `HTTP 201 Created · 488 ms · JSON object, 4 fields`, `"id": 101` | ✅ Pass |
 | 3 | Request a resource that does not exist | `GET` | `https://jsonplaceholder.typicode.com/posts/9999` | — | `404 Not Found` shown as an error (red) | `HTTP 404 Not Found · 177 ms · JSON object, 0 fields`, body `{}` | ✅ Pass |
+<img width="540" height="1200" alt="test_case_2_post" src="https://github.com/user-attachments/assets/7f7a1532-9795-4203-ae85-df1dcddb5466" />
+<img width="540" height="1200" alt="test_case_1_get" src="https://github.com/user-attachments/assets/dc21dd1d-bdd2-46bc-ac76-8a0ef901e8de" />
+<img width="1760" height="1500" alt="all_test_cases" src="https://github.com/user-attachments/assets/8c214618-b8a9-4da1-97c7-1e76e2eeb3db" />
 
 *Response times depend on the network and will differ on each run.*
 
@@ -284,7 +287,7 @@ HttpWebServiceDemo/
 
 | Test Case 1: GET (200 OK) | Test Case 2: POST (201 Created) | Test Case 3: GET (404 Not Found) |
 |---|---|---|
-| ![Test case 1](screenshots/test_case_1_get.png) | ![Test case 2](screenshots/test_case_2_post.png) | ![Test case 3](screenshots/test_case_3_not_found.png) |
+<img width="540" height="1200" alt="test_case_3_not_found" src="https://github.com/user-attachments/assets/367ec9c0-8c0c-461c-985b-9c2324ee9d6e" />
 
 ---
 
